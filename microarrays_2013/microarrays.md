@@ -10,7 +10,7 @@ image: CBW_cancerDNA_icon-16.jpg
 Laptop Setup Instructions
 -------------------------
 
-Instructions for setting up your laptop can be found here: [Laptop Setup Instructions\_Microarrays](Laptop_Setup_Instructions_Microarrays "wikilink")
+Instructions for setting up your laptop can be found here: [Laptop Setup Instructions](http://bioinformatics-ca.github.io/microarray_laptop_setup_2013/)
 
 Pre-Workshop Tutorials
 ----------------------

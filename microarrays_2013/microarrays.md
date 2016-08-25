@@ -32,8 +32,8 @@ Pre-Workshop Tutorials
 Pre-Workshop Readings
 ---------------------
 
-[The MicroArray Quality Control (MAQC) project shows inter- and intraplatform reproducibility of gene expression measurements](http://www.ncbi.nlm.nih.gov/pubmed/16964229)
-[Microarray data analysis: from disarray to consolidation and consensus](http://www.ncbi.nlm.nih.gov/pubmed/16369572)
+[The MicroArray Quality Control (MAQC) project shows inter- and intraplatform reproducibility of gene expression measurements](http://www.ncbi.nlm.nih.gov/pubmed/16964229)  
+[Microarray data analysis: from disarray to consolidation and consensus](http://www.ncbi.nlm.nih.gov/pubmed/16369572)  
 
 <hr>
 R Review Session
@@ -49,15 +49,15 @@ Data Sets:
 
 * [.zip CEL files](https://github.com/bioinformatics-ca/other_workshops/raw/master/microarrays_2013/Microarray_data.zip) containing:   
 
--   GSM429557_ST486_Fox1.CEL
--   GSM429558_ST486_Fox2.CEL
--   GSM429559_ST486_Fox3.CEL
--   GSM429560_ST486_MYB1.CEL
--   GSM429561_ST486_MYB2.CEL
--   GSM429562_ST486_MYB3.CEL
--   GSM429563_ST486_NT1.CEL
--   GSM429564_ST486_NT2.CEL
--   GSM429565_ST486_NT3.CEL
+  -   GSM429557_ST486_Fox1.CEL
+  -   GSM429558_ST486_Fox2.CEL
+  -   GSM429559_ST486_Fox3.CEL
+  -   GSM429560_ST486_MYB1.CEL
+  -   GSM429561_ST486_MYB2.CEL
+  -   GSM429562_ST486_MYB3.CEL
+  -   GSM429563_ST486_NT1.CEL
+  -   GSM429564_ST486_NT2.CEL
+  -   GSM429565_ST486_NT3.CEL
 
 * [Phenodata.txt](https://github.com/bioinformatics-ca/other_workshops/raw/master/microarrays_2013/Phenodata.txt)
 
@@ -151,31 +151,30 @@ For CDF file: Download for alternative-CDF package from: <http://brainarray.mbni
 #### Rat
 
 * [.zip file of rat CEL files](https://github.com/bioinformatics-ca/other_workshops/raw/master/microarrays_2013/Rat_data.zip) containing: 
-
--   GSM273072.CEL
--   GSM273073.CEL
--   GSM273074.CEL
--   GSM273075.CEL
--   GSM273076.CEL
--   GSM273077.CEL
--   GSM273078.CEL
--   GSM273079.CEL
+  -   GSM273072.CEL
+  -   GSM273073.CEL
+  -   GSM273074.CEL
+  -   GSM273075.CEL
+  -   GSM273076.CEL
+  -   GSM273077.CEL
+  -   GSM273078.CEL
+  -   GSM273079.CEL
 
 #### Mouse
 
 * [.zip file of mouse CEL files](https://github.com/bioinformatics-ca/other_workshops/raw/master/microarrays_2013/Mouse_data.zip) containing:
 
--   GSM254871.CEL
--   GSM254872.CEL
--   GSM254873.CEL
--   GSM254877.CEL
--   GSM254878.CEL
--   GSM254879.CEL
--   GSM254880.CEL
--   GSM254881.CEL
--   GSM254882.CEL
--   GSM254883.CEL
--   GSM254885.CEL
+  -   GSM254871.CEL
+  -   GSM254872.CEL
+  -   GSM254873.CEL
+  -   GSM254877.CEL
+  -   GSM254878.CEL
+  -   GSM254879.CEL
+  -   GSM254880.CEL
+  -   GSM254881.CEL
+  -   GSM254882.CEL
+  -   GSM254883.CEL
+  -   GSM254885.CEL
 
 <hr>
 Day 2

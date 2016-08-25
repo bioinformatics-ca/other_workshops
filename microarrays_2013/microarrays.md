@@ -47,16 +47,19 @@ R Review Session
 Data Sets:
 ----------
 
--   [GSM429557\_ST486\_Fox1.CEL](Media:GSM429557_ST486_Fox1.CEL "wikilink")
--   [GSM429558\_ST486\_Fox2.CEL](Media:GSM429558_ST486_Fox2.CEL "wikilink")
--   [GSM429559\_ST486\_Fox3.CEL](Media:GSM429559_ST486_Fox3.CEL "wikilink")
--   [GSM429560\_ST486\_MYB1.CEL](Media:GSM429560_ST486_MYB1.CEL "wikilink")
--   [GSM429561\_ST486\_MYB2.CEL](Media:GSM429561_ST486_MYB2.CEL "wikilink")
--   [GSM429562\_ST486\_MYB3.CEL](Media:GSM429562_ST486_MYB3.CEL "wikilink")
--   [GSM429563\_ST486\_NT1.CEL](Media:GSM429563_ST486_NT1.CEL "wikilink")
--   [GSM429564\_ST486\_NT2.CEL](Media:GSM429564_ST486_NT2.CEL "wikilink")
--   [GSM429565\_ST486\_NT3.CEL](Media:GSM429565_ST486_NT3.CEL "wikilink")
--   [Phenodata.txt](Media:Phenodata.txt "wikilink")
+* [.zip CEL files](https://github.com/bioinformatics-ca/other_workshops/raw/master/microarrays_2013/Microarray_data.zip) containing:   
+
+-   GSM429557_ST486_Fox1.CEL
+-   GSM429558_ST486_Fox2.CEL
+-   GSM429559_ST486_Fox3.CEL
+-   GSM429560_ST486_MYB1.CEL
+-   GSM429561_ST486_MYB2.CEL
+-   GSM429562_ST486_MYB3.CEL
+-   GSM429563_ST486_NT1.CEL
+-   GSM429564_ST486_NT2.CEL
+-   GSM429565_ST486_NT3.CEL
+
+* [Phenodata.txt](https://github.com/bioinformatics-ca/other_workshops/raw/master/microarrays_2013/Phenodata.txt)
 
 <hr>
 Day 1
@@ -72,29 +75,39 @@ Day 1
 
 <font color="green">*Faculty: Paul Boutros*</font>
 
-**Lecture:** [Module 1](Media:Microarray_2013_Module1.pdf "wikilink")
+**Lecture:** 
+
+[Module 1 pdf](https://bioinformatics.ca/microarrays2013module1-pdf)  
+[Module 1 ppt](https://bioinformatics.ca/microarrays2013module1-ppt)  
+[Module 1 mp4](https://bioinformatics.ca/microarrays2013module1-mp4)  
 
 **Lab Practical:**
-[Modules 1-3 Lab questions](Media:Microarray_2013_Practical-Questions.pdf "wikilink")
+
+[Modules 1-3 Lab questions](https://github.com/bioinformatics-ca/other_workshops/raw/master/microarrays_2013/Microarray_2013_Practical-Questions.pdf)
 
 <hr>
 ### Module 2: Quality Control of Microarrays
 
 <font color="green">*Faculty: Paul Boutros*</font>
 
-**Lecture:** [Module 2‎](Media:Microarray_2013_Module2.pdf "wikilink")
+**Lecture:** 
+
+[Module 2 pdf‎](https://bioinformatics.ca/microarrays2013module2-pdf)  
+[Module 2‎ ppt](https://bioinformatics.ca/microarrays2013module2-ppt)  
+[Module 2‎ mp4](https://bioinformatics.ca/microarrays2013module2-mp4)  
 
 **Lab Practical:**
-[Modules 1-3 Lab questions](Media:Microarray_2013_Practical-Questions.pdf "wikilink")
-[Day 1 analysis script](Media:analysis_script.R "wikilink")
+
+[Modules 1-3 Lab questions](https://github.com/bioinformatics-ca/other_workshops/raw/master/microarrays_2013/Microarray_2013_Practical-Questions.pdf)  
+[Day 1 analysis script](https://github.com/bioinformatics-ca/other_workshops/raw/master/microarrays_2013/Analysis_script.R)  
 
 <hr>
 ### Integrated Assignment
 
 <font color="green">*Faculty: Nicholas Harding*</font>
 
--   [Evening session R script](Media:Results.R "wikilink")
--   [Integrated Assignment Qs](Media:Integrated_assignment2013.pdf "wikilink")
+-   [Evening session R script](https://github.com/bioinformatics-ca/other_workshops/raw/master/microarrays_2013/Results.R)  
+-   [Integrated Assignment Qs](https://github.com/bioinformatics-ca/other_workshops/raw/master/microarrays_2013/Integrated_assignment2013.pdf)  
 
 Note: You will have to create your own phenotype data .txt file, using the sample annotations in the links.
 
@@ -102,53 +115,67 @@ Note: You will have to create your own phenotype data .txt file, using the sampl
 
 remember you can check your file has been read in correctly using the:
 
-`   pData() `
+``` r
+   pData() 
+```
 
 function, which returns your phenotype annotation as a dataframe.
 
 For further help see
 
-`   ?ReadAffy`
+``` r
+   ?ReadAffy
+```
 
 This points you to another function that loads the dataframe, and tells you exactly what it is expecting.
 
-`   ?read.AnnotatedDataFrame`
+``` r
+   ?read.AnnotatedDataFrame
+```
 
 You can troubleshoot any problems with your phenotype data using this function directly.
 
 ### Integrated Assignment Data
 
 For annotations:
-Rat: <http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE10770>
-Mouse: <http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE10769>
-Note: The 11 samples above are the same as in the link below. Only this time they are part of a larger set. Use the link below to prepare PhenoData file: Mouse: <http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?targ=gse&acc=GSM254871>
+
+* Rat: <http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE10770>
+* Mouse: <http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE10769>
+
+Note: The 11 samples above are the same as in the link below. Only this time they are part of a larger set. Use the link below to prepare PhenoData file: 
+
+* Mouse: <http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?targ=gse&acc=GSM254871>
 
 For CDF file: Download for alternative-CDF package from: <http://brainarray.mbni.med.umich.edu/Brainarray/Database/CustomCDF/17.1.0/entrezg.asp>
 
 #### Rat
 
--   [GSM273072.CEL](Media:GSM273072.CEL "wikilink")
--   [GSM273073.CEL](Media:GSM273073.CEL "wikilink")
--   [GSM273074.CEL](Media:GSM273074.CEL "wikilink")
--   [GSM273075.CEL](Media:GSM273075.CEL "wikilink")
--   [GSM273076.CEL](Media:GSM273076.CEL "wikilink")
--   [GSM273077.CEL](Media:GSM273077.CEL "wikilink")
--   [GSM273078.CEL](Media:GSM273078.CEL "wikilink")
--   [GSM273079.CEL](Media:GSM273079.CEL "wikilink")
+* [.zip file of rat CEL files](https://github.com/bioinformatics-ca/other_workshops/raw/master/microarrays_2013/Rat_data.zip) containing: 
+
+-   GSM273072.CEL
+-   GSM273073.CEL
+-   GSM273074.CEL
+-   GSM273075.CEL
+-   GSM273076.CEL
+-   GSM273077.CEL
+-   GSM273078.CEL
+-   GSM273079.CEL
 
 #### Mouse
 
--   [GSM254871.CEL](Media:GSM254871.CEL "wikilink")
--   [GSM254872.CEL](Media:GSM254872.CEL "wikilink")
--   [GSM254873.CEL](Media:GSM254873.CEL "wikilink")
--   [GSM254877.CEL](Media:GSM254877.CEL "wikilink")
--   [GSM254878.CEL](Media:GSM254878.CEL "wikilink")
--   [GSM254879.CEL](Media:GSM254879.CEL "wikilink")
--   [GSM254880.CEL](Media:GSM254880.CEL "wikilink")
--   [GSM254881.CEL](Media:GSM254881.CEL "wikilink")
--   [GSM254882.CEL](Media:GSM254882.CEL "wikilink")
--   [GSM254883.CEL](Media:GSM254883.CEL "wikilink")
--   [GSM254885.CEL](Media:GSM254885.CEL "wikilink")
+* [.zip file of mouse CEL files](https://github.com/bioinformatics-ca/other_workshops/raw/master/microarrays_2013/Mouse_data.zip) containing:
+
+-   GSM254871.CEL
+-   GSM254872.CEL
+-   GSM254873.CEL
+-   GSM254877.CEL
+-   GSM254878.CEL
+-   GSM254879.CEL
+-   GSM254880.CEL
+-   GSM254881.CEL
+-   GSM254882.CEL
+-   GSM254883.CEL
+-   GSM254885.CEL
 
 <hr>
 Day 2
@@ -160,22 +187,31 @@ Day 2
 <font color="green">*Faculty: Paul Boutros*</font>
 
 **Lecture:**
-[Module 3‎](Media:Microarray_2013_Module3.pdf "wikilink")
-[Clustering Slides‎](Media:Microarrays_2012_Clustering_Slides.pdf "wikilink")
+
+[Module 3‎ pdf](https://bioinformatics.ca/microarrays2013module3-pdf)  
+[Module 3‎ ppt](https://bioinformatics.ca/microarrays2013module3-ppt)  
+[Module 3‎ mp4](https://bioinformatics.ca/microarrays2013module3-mp4)  
+
+
+[Clustering Slides‎](https://github.com/bioinformatics-ca/other_workshops/raw/master/microarrays_2013/Microarrays_2012_Clustering_Slides.pdf)
 
 **Lab Practical:**
-[Modules 1-3 Lab questions](Media:Microarray_2013_Practical-Questions.pdf "wikilink")
-[Status of R script at 11:55am](Media:Analysis_scripts_day2am.R "wikilink")
-[Status of R script at 12:33pm](Media:Analysis_scripts_day2noon.R "wikilink")
-[Status of R script at 4:24pm](Media:Analysis_scripts_day2pm.R "wikilink")
-[R script with MAS5](Media:Analysis_scripts_mas5.R "wikilink")
+[Modules 1-3 Lab questions](https://github.com/bioinformatics-ca/other_workshops/raw/master/microarrays_2013/Microarray_2013_Practical-Questions.pdf)  
+[Status of R script at 11:55am](https://github.com/bioinformatics-ca/other_workshops/raw/master/microarrays_2013/Analysis_scripts_day2am.R)  
+[Status of R script at 12:33pm](https://github.com/bioinformatics-ca/other_workshops/raw/master/microarrays_2013/Analysis_scripts_day2noon.R)  
+[Status of R script at 4:24pm](https://github.com/bioinformatics-ca/other_workshops/raw/master/microarrays_2013/Analysis_scripts_day2pm.R)  
+[R script with MAS5](https://github.com/bioinformatics-ca/other_workshops/raw/master/microarrays_2013/Analysis_scripts_mas5.R)  
 
 <hr>
 ### Module 4: Beyond the Microarray Experiment
 
 <font color="green">*Faculty: Paul Boutros*</font>
 
-**Lecture:** [Module 4](Media:Microarray_2013_Module4.pdf "wikilink")
+**Lecture:** 
+
+[Module 4 pdf](https://bioinformatics.ca/microarrays2013module4-pdf)  
+[Module 4 ppt](https://bioinformatics.ca/microarrays2013module4-ppt)  
+[Module 4 mp4](https://bioinformatics.ca/microarrays2013module4-mp4)  
 
 <hr>
 Other (more advanced) resources

@@ -94,7 +94,7 @@ Day 1
 
 **Lecture:** 
 
-[Module 1 pdf](https://bioinformatics.ca/flow2013module1-pdf) 
+[Module 1 pdf](https://bioinformatics.ca/flow2013module1-pdf)   
 [Module 1 mp4](https://bioinformatics.ca/flow2013module1-mp4)  
 
 <hr>

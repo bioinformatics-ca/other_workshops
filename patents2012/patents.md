@@ -23,7 +23,7 @@ image: CBW_cancerDNA_icon-16.jpg
 
 **Lab:** 
 
-[Module 1 Lab]
+[Module 1 Lab](https://github.com/bioinformatics-ca/other_workshops/raw/master/patents2012/Module1_Patent_2012_LabExercises.pdf)  
 
 **Links to Tools**
 
@@ -39,13 +39,13 @@ image: CBW_cancerDNA_icon-16.jpg
 
 ## Module 2:  (Faculty: Louisa Bellis)
 
-**Lecture:** [
+**Lecture:** 
 
-Module 2]
+[Module 2](https://github.com/bioinformatics-ca/other_workshops/raw/master/patents2012/Module1_Patent_2012_LabExercises.pdf)  
 
 **Lab:** 
 
-[Module 2 Lab]
+[Module 2 Lab](https://github.com/bioinformatics-ca/other_workshops/raw/master/patents2012/Patent_2012_Module2Lab.pdf)  
 
 **Links to Tools**
 

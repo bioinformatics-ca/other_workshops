@@ -10,7 +10,7 @@ image: CBW_cancerDNA_icon-16.jpg
 Laptop Setup Instructions
 -------------------------
 
-Instructions for setting up your laptop can be found here: [Laptop Setup Instructions\_FACS](Laptop_Setup_Instructions_FACS "wikilink")
+Instructions for setting up your laptop can be found here: [Laptop Setup Instructions\_FACS](http://bioinformatics-ca.github.io/flow_cyt_laptop_setup_2013/)
 
 Difference Between R and R Studio  
 
@@ -68,15 +68,15 @@ Pre-Workshop Tutorials
 Pre-Workshop Readings
 ---------------------
 
-[FACS\_2013\_Torfs+Brauer-Short-R-Intro](Media:FACS_2013_Torfs+Brauer-Short-R-Intro.pdf "wikilink")
+[FACS\_2013\_Torfs+Brauer-Short-R-Intro](https://cran.r-project.org/doc/contrib/Torfs+Brauer-Short-R-Intro.pdf)
 
 <hr>
 Data Sets
 ---------
 
-[SupportCode.zip](Media:SupportCode.zip "wikilink")
+[SupportCode.zip](https://github.com/bioinformatics-ca/other_workshops/raw/master/flow_cytometry_2013/SupportCode.zip)
 
-[Data.zip](Media:Data.zip "wikilink")
+[Data.zip](https://github.com/bioinformatics-ca/other_workshops/raw/master/flow_cytometry_2013/Data.zip)
 
 <hr>
 Day 1
@@ -109,8 +109,8 @@ Day 1
 
 **Lab Practical:**
 
-[Module 2 Lab](Media:FACS_2013_Module2_Lab.R "wikilink")
-[PlottingReference.R](Media:2013_PlottingReference.R‎ "wikilink") - reference, summary and tutorial for plot functions in **R**.
+[Module 2 Lab](https://github.com/bioinformatics-ca/other_workshops/raw/master/flow_cytometry_2013/FACS_2013_Module2_Lab.R)  
+[PlottingReference.R](https://github.com/bioinformatics-ca/other_workshops/raw/master/flow_cytometry_2013/2013_PlottingReference.R) - reference, summary and tutorial for plot functions in **R**.
 
 <hr>
 ### Module 3: Preprocessing and Quality Assurance of FCM Data
@@ -125,18 +125,18 @@ Day 1
 
 **Lab Practical:**
 
-[Module 3 Lab](Media:FACS_2013_Module3_Lab.R "wikilink")
+[Module 3 Lab](https://github.com/bioinformatics-ca/other_workshops/raw/master/flow_cytometry_2013/FACS_2013_Module3_Lab.R)
 
 <hr>
 ### Integrated Assignment
 
 <font color="green">*Faculty: Radina Droumeva*</font>
 
--   [ FACS Integrated Assignment](Media:FACS_2013_IntegratedAssignment.R "wikilink")
+-   [ FACS Integrated Assignment](https://github.com/bioinformatics-ca/other_workshops/raw/master/flow_cytometry_2013/FACS_2013_IntegratedAssignment.R)
 
 <!-- -->
 
--   [ FACS AnswerKey](Media:FACS_2013_AnswerKey.R "wikilink")
+-   [ FACS AnswerKey](https://github.com/bioinformatics-ca/other_workshops/raw/master/flow_cytometry_2013/FACS_2013_AnswerKey.R)
 
 <hr>
 Day 2
@@ -163,7 +163,8 @@ Day 2
 [Module 5‎ mp4](https://bioinformatics.ca/flow2013module5-mp4)  
 
 **Lab Practical:**
-[Module 5 Lab](Media:FACS_2013_Module5_Lab.R "wikilink")
+
+[Module 5 Lab](https://github.com/bioinformatics-ca/other_workshops/raw/master/flow_cytometry_2013/FACS_2013_Module5_Lab.R)  
 
 <hr>
 ### Module 6: Additional FCM Tools
